@@ -1,0 +1,35 @@
+name: heartsync
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  provider: ^6.0.0
+  google_fonts: ^5.0.1
+  fl_chart: ^0.55.0
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.13.1
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/woman_angry.png
+    - assets/woman_joyful.png
+    - assets/woman_neutral.png
+    - assets/woman_happy.png
+    - assets/man_angry.png
+    - assets/man_joyful.png
+    - assets/man_neutral.png
+    - assets/man_happy.png
